@@ -1,0 +1,26 @@
+.game-over {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  border: 3px solid;
+  border-radius: 20px;
+  height: 150px;
+  width: 200px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -103%);
+  background-color: $color-lose;
+  .button {
+    width: 130px;
+    margin: 0px;
+    font-size: 20px;
+  }
+}
+
+.game-over_on {
+  display: flex;
+}

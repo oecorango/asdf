@@ -1,0 +1,33 @@
+.cell {
+  display: flex;
+  border: 2px solid $color-gray;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cell-on {
+  background-color: $color-ligth;
+}
+
+.cell-off {
+  background-image: url(assets/image/flag.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cell-question {
+  background-image: url(assets/image/question.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cell-true {
+  background-color: $color-2;
+}
+
+.cell-false {
+  background-color: $color-7;
+}

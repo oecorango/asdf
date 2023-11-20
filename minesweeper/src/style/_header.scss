@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__text {
+  font-family: 'Comic-sans';
+  font-size: 35px;
+}
+
+.header__text_night {
+  color: $color-ligth;
+}
+
+.cat {
+  margin: auto 0;
+  height: 90px;
+}

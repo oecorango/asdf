@@ -1,0 +1,26 @@
+.game-win {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  border: 3px solid;
+  border-radius: 20px;
+  height: 130px;
+  width: 270px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -103%);
+  background-color: $color-win;
+  .button {
+    width: 130px;
+    margin: 0px;
+    font-size: 20px;
+  }
+}
+
+.game-win_on {
+  display: flex;
+}
