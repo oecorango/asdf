@@ -23,6 +23,7 @@
     "eslint-plugin-import": "^2.27.5",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.1",
+    "image-webpack-loader": "^8.1.0",
     "mini-css-extract-plugin": "^2.7.5",
     "postcss": "^8.4.23",
     "postcss-loader": "^7.3.0",
